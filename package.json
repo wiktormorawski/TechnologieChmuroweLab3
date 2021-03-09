@@ -1,0 +1,31 @@
+{
+  "name": "technologiechmurowelab3",
+  "version": "1.0.0",
+  "description": "travisCi proby",
+  "main": "server.js",
+  "scripts": {
+    "run": "node server.js",
+    "test": "mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiktormorawski/TechnologieChmuroweLab3.git"
+  },
+  "keywords": [
+    "TravisCi",
+    "Mocha",
+    "Chi"
+  ],
+  "author": "Wiktor Morawski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wiktormorawski/TechnologieChmuroweLab3/issues"
+  },
+  "homepage": "https://github.com/wiktormorawski/TechnologieChmuroweLab3#readme",
+  "dependencies": {
+    "chai": "^4.3.3",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "mocha": "^8.3.1"
+  }
+}
